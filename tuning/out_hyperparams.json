@@ -1,0 +1,116 @@
+{
+ "results": [
+  {
+   "idx": 1,
+   "cfg": {
+    "max_leaf_nodes": 20,
+    "min_samples_leaf": 400,
+    "max_iter": 250,
+    "learning_rate": 0.05,
+    "max_features": 0.5,
+    "l2_regularization": 1.0
+   },
+   "f1": 0.9158892623786683,
+   "rate": 0.03907579236320626,
+   "tp": 12125,
+   "fp": 231,
+   "fn": 1996
+  },
+  {
+   "idx": 5,
+   "cfg": {
+    "max_leaf_nodes": 10,
+    "min_samples_leaf": 400,
+    "max_iter": 300,
+    "learning_rate": 0.07,
+    "max_features": 0.6,
+    "l2_regularization": 1.0
+   },
+   "f1": 0.9093571643136077,
+   "rate": 0.03956597914018077,
+   "tp": 12109,
+   "fp": 402,
+   "fn": 2012
+  },
+  {
+   "idx": 0,
+   "cfg": {
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 400,
+    "max_iter": 200,
+    "learning_rate": 0.06,
+    "max_features": 0.6,
+    "l2_regularization": 1.0
+   },
+   "f1": 0.907026419336706,
+   "rate": 0.0397335913929527,
+   "tp": 12102,
+   "fp": 462,
+   "fn": 2019
+  },
+  {
+   "idx": 3,
+   "cfg": {
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 200,
+    "max_iter": 300,
+    "learning_rate": 0.06,
+    "max_features": 0.6,
+    "l2_regularization": 1.0
+   },
+   "f1": 0.9046423135464231,
+   "rate": 0.038452780782148345,
+   "tp": 11887,
+   "fp": 272,
+   "fn": 2234
+  },
+  {
+   "idx": 2,
+   "cfg": {
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 800,
+    "max_iter": 150,
+    "learning_rate": 0.06,
+    "max_features": 0.7,
+    "l2_regularization": 1.0
+   },
+   "f1": 0.903201814733554,
+   "rate": 0.04038506543202849,
+   "tp": 12144,
+   "fp": 626,
+   "fn": 1977
+  },
+  {
+   "idx": 4,
+   "cfg": {
+    "max_leaf_nodes": 63,
+    "min_samples_leaf": 40,
+    "max_iter": 500,
+    "learning_rate": 0.06,
+    "max_features": 0.6,
+    "l2_regularization": 1.0
+   },
+   "f1": 0.8970214731009005,
+   "rate": 0.03752300715356445,
+   "tp": 11655,
+   "fp": 210,
+   "fn": 2466
+  }
+ ],
+ "shipped": {
+  "max_leaf_nodes": 20,
+  "min_samples_leaf": 400,
+  "max_iter": 250,
+  "learning_rate": 0.05,
+  "max_features": 0.5,
+  "l2_regularization": 1.0
+ },
+ "shipped_f1": 0.9158892623786683,
+ "best_f1": 0.9158892623786683,
+ "bootstrap": {
+  "mean": 0.0,
+  "lo": 0.0,
+  "hi": 0.0,
+  "p_gt0": 0.0
+ }
+}
